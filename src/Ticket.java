@@ -1,4 +1,2 @@
-public class Ticket {
-
-
+public record Ticket(int ticketNum, String timestamp) {
 }
